@@ -14,6 +14,7 @@
 		AAD3069B1B98A53000CB6A28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD3069A1B98A53000CB6A28 /* Images.xcassets */; };
 		AAD3069E1B98A53000CB6A28 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAD3069C1B98A53000CB6A28 /* LaunchScreen.xib */; };
 		AAD306AA1B98A53000CB6A28 /* FastestRPMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD306A91B98A53000CB6A28 /* FastestRPMTests.m */; };
+		AAD306BD1B98D04C00CB6A28 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD306BC1B98D04C00CB6A28 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		AAD306A31B98A53000CB6A28 /* FastestRPMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastestRPMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAD306A81B98A53000CB6A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAD306A91B98A53000CB6A28 /* FastestRPMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastestRPMTests.m; sourceTree = "<group>"; };
+		AAD306BC1B98D04C00CB6A28 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAD306BD1B98D04C00CB6A28 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +69,7 @@
 				AAD3068C1B98A53000CB6A28 /* FastestRPM */,
 				AAD306A61B98A53000CB6A28 /* FastestRPMTests */,
 				AAD3068B1B98A53000CB6A28 /* Products */,
+				AAD306BE1B98D05000CB6A28 /* Framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +121,14 @@
 				AAD306A81B98A53000CB6A28 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAD306BE1B98D05000CB6A28 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				AAD306BC1B98D04C00CB6A28 /* QuartzCore.framework */,
+			);
+			name = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
